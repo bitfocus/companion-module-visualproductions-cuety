@@ -348,7 +348,7 @@ instance.prototype.init_presets = function () {
 		});
 
 		presets.push({
-			category: `Playbackƒc ${i}`,
+			category: `Playback ${i}`,
 			label: 'Decrement Playback Speed ' + i,
 			bank: {
 				style: 'text',
