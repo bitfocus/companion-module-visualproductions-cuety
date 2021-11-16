@@ -233,7 +233,7 @@ instance.prototype.init_presets = function () {
 			label: 'GO/STOP' + i,
 			bank: {
 				style: 'text',
-				text: `Playback ${1}\\nGO/STOP\\nCue: $(cuety:playback_cue_${i})`,
+				text: `Playback ${i}\\nGO/STOP\\nCue: $(cuety:playback_cue_${i})`,
 				size: '14',
 				color: '16777215',
 				bgcolor: self.rgb(0, 0, 0)
