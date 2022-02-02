@@ -1,8 +1,10 @@
 {
 	"name": "visualproductions-cuety",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"api_version": "1.0.0",
-	"keywords": [ "Cuety" ],
+	"keywords": [
+		"Cuety"
+	],
 	"manufacturer": "Visual Productions",
 	"product": "Cuety",
 	"shortname": "cuety",
@@ -12,7 +14,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
-	"type": "git",
+		"type": "git",
 		"url": "git+https://github.com/bitfocus/companion-module-visualproductions-cuety.git"
 	},
 	"author": "Joseph Adams <josephdadams@gmail.com>",
