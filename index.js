@@ -542,7 +542,7 @@ instance.prototype.destroy = function() {
 instance.prototype.actions = function(system) {
 	let self = this;
 
-	self.system.emit('instance_actions', self.id, {
+	self.setActions({
 
 		'set_intensity': {
 			label: 'Set Playback Intensity',
